@@ -1,4 +1,4 @@
-#🌍 RAG IPCC Demo (Ollama + LangChain)
+##🌍 RAG IPCC Demo (Ollama + LangChain)
 
 This project demonstrates a Retrieval-Augmented Generation (RAG) pipeline using local Ollama models and LangChain, applied to IPCC AR6 climate reports.
 Users can query climate reports and receive answers along with their source pages.
