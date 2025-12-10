@@ -4,6 +4,9 @@ This project demonstrates a Retrieval-Augmented Generation (RAG) pipeline using 
 Users can query climate reports and receive answers along with their source pages.
 
 ## 📁 1. Project Structure
+
+
+```
 rag-ollama-ipcc/
 │
 ├── data/               # Place IPCC PDFs here
@@ -16,6 +19,8 @@ rag-ollama-ipcc/
 ├── ui_streamlit.py     # Streamlit UI for interactive queries
 ├── requirements.txt    # Python dependencies
 └── README.md
+```
+
 
 ## ⚙️ 2. Prerequisites
 
@@ -33,10 +38,12 @@ At least 5–7 GB free disk space (models + vector DB)
 
 ## 📥 3. Clone the Repository
 git clone https://github.com/YOUR_USERNAME/rag-ollama-ipcc.git
+
 cd rag-ollama-ipcc
 
 ## 🧪 4. Setting Up the Python Environment
 Create and activate a virtual environment:
+
 python -m venv .venv
 
 
@@ -59,13 +66,12 @@ pip install -r requirements.txt
 
 Place the following IPCC official PDFs inside the data/ folder:
 
-IPCC AR6 WGI SPM (Physical Science Basis)
+IPCC AR6 WGI SPM (Physical Science Basis) : https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf
 
-IPCC AR6 Synthesis Report – Full Volume
+IPCC AR6 Synthesis Report – Full Volume : https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf
 
-IPCC AR6 SYR SPM (Summary for Policymakers)
+IPCC AR6 SYR SPM (Summary for Policymakers) : https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf
 
-Official downloads: https://www.ipcc.ch/reports/
 
 ## ✂️ 6. Ingest PDFs (Extraction & Chunking)
 
